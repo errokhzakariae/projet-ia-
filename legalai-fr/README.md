@@ -88,6 +88,27 @@ Endpoints disponibles:
 - `POST /ai/extract`
 - `POST /ai/summarize`
 
+## Interface Streamlit
+
+En local:
+
+```powershell
+streamlit run streamlit_app.py
+```
+
+Sur Streamlit Cloud, selectionne ce fichier comme point d'entree:
+
+```txt
+streamlit_app.py
+```
+
+Dans les secrets Streamlit Cloud, ajoute au minimum:
+
+```toml
+OPENROUTER_API_KEY = "sk-or-v1-ta-cle"
+OPENROUTER_MODEL = "mistralai/mistral-small-3.2-24b-instruct"
+```
+
 ## API LLM avec OpenRouter
 
 Crée un fichier `.env` à partir de `.env.example`, puis renseigne ta clé:

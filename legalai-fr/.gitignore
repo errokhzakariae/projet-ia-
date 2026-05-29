@@ -1,4 +1,6 @@
 .venv/
+.env
+.streamlit/secrets.toml
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
@@ -9,5 +11,15 @@ artifacts/models/*
 !data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
+!data/processed/mlp_dataset.csv
+!data/processed/train.csv
+!data/processed/val.csv
+!data/processed/test.csv
+!data/processed/tfidf_vectorizer.pkl
+!data/processed/label_encoder.pkl
+!data/processed/features/
+!data/processed/features/*.npz
 !artifacts/models/.gitkeep
-
+!artifacts/models/mlp_jurisdiction.pt
+!artifacts/models/mlp_jurisdiction.metrics.json
+!artifacts/models/test_metrics.json

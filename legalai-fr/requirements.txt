@@ -31,6 +31,7 @@ matplotlib
 # =========================
 fastapi
 uvicorn
+streamlit
 python-multipart
 pydantic
 

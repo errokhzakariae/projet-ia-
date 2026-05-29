@@ -1,0 +1,7 @@
+source_id,label,text,text_length,word_count,label_id
+cass-001,cour_de_cassation,la cour de cassation casse et annule l'arrêt rendu par la cour d'appel. la décision concerne l'application du code civil et le contrôle de la motivation juridique.,163,27,1
+tj-003,tribunal_judiciaire,le tribunal judiciaire rend un jugement concernant une obligation de paiement et l'application d'une clause pénale.,115,16,2
+cass-003,cour_de_cassation,la cour de cassation statue sur un pourvoi relatif à un contrat de travail. elle contrôle la correcte application du droit par les juges du fond.,145,26,1
+appel-002,cour_d_appel,la cour d'appel infirme partiellement la décision du tribunal judiciaire. le litige concerne des obligations contractuelles.,124,16,0
+appel-001,cour_d_appel,la cour d'appel confirme le jugement rendu en première instance. les parties contestent l'exécution d'un contrat de bail.,121,18,0
+tj-001,tribunal_judiciaire,le tribunal judiciaire statue en premier ressort sur une demande relative à un contrat de location. le demandeur sollicite des dommages et intérêts.,148,23,2

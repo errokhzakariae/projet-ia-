@@ -5,7 +5,10 @@ import re
 import spacy
 
 
-nlp = spacy.load("fr_core_news_md")
+try:
+    nlp = spacy.load("fr_core_news_md")
+except OSError:
+    nlp = spacy.blank("fr")
 
 
 LEGAL_KEYWORDS = [
