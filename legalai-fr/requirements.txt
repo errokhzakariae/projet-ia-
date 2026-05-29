@@ -1,0 +1,68 @@
+# =========================
+# DATA PROCESSING
+# =========================
+pandas
+numpy
+scikit-learn
+datasets
+tqdm
+joblib
+
+# =========================
+# NLP / TRANSFORMERS
+# =========================
+transformers
+tokenizers
+sentencepiece
+
+# =========================
+# DEEP LEARNING
+# =========================
+torch
+torchvision
+
+# =========================
+# VISUALIZATION
+# =========================
+matplotlib
+
+# =========================
+# API / BACKEND
+# =========================
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# =========================
+# DATABASE
+# =========================
+sqlalchemy
+psycopg2-binary
+
+# =========================
+# VECTOR DATABASE
+# =========================
+chromadb
+
+# =========================
+# PDF PROCESSING
+# =========================
+pymupdf
+pdfplumber
+
+# =========================
+# ENVIRONMENT
+# =========================
+python-dotenv
+
+# =========================
+# UTILITIES
+# =========================
+requests
+
+
+# =========================
+# SPACY
+# =========================
+spacy
